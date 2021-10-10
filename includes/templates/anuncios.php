@@ -10,7 +10,7 @@ $resutado = mysqli_query($db, $query);
 
 ?>
 
-<div class="contendor-anuncios">
+<div class="contenedor-anuncios">
     <?php while ($propiedad = mysqli_fetch_assoc($resutado)) : ?>
     <div class="anuncio">
         <img loading="lazy " src="/imagenes/<?php echo $propiedad['imagen']; ?>" alt="anuncio">
